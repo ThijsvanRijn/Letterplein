@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="Learning Community, Letterplein, Beelschermtypografie "/>
+<meta name="description" content="Een learning community waarbij leerlingen en studenten met elkaar over beeldschermtypografie praten."/>
+<meta name="author" content="Twan Meijer" />      
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:500,900" rel="stylesheet">
+<title> Registreren/Inloggen | Letterplein </title>
+</head>
+<body>
+    
+<div class="container-fluid">    
+    
+    <div class="row">      
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="inloggen_uitloggen_balk">
+                <span class="a_grey2 a_grey_padding">Ben je al lid?</span> <a href="#"><span class="a_black">Registreren/Inloggen</span></a>
+            </div>   
+        </div>            
+    </div>  
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <nav class="navbar navbar-default navbar-static-top navigation_bar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="startpagina_niet_ingelogd.html"><img class="padding_logo" src="links/logo.png" alt="logo" height="30"> </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar_no_border" id="bs-example-navbar-collapse-1">
+                    <form class="nav navbar-form navbar-right navbar_no_border" role="search">
+                    <div class="input-group">
+                    <input type="text" class="form-control zoekbalk_lettertype color_zoekbalk_form" placeholder="Zoeken">
+                    <span class="input-group-btn">
+                        <button onclick="window.location.href='searchresults_niet_ingelogd.html'" type="button" class="btn color_zoekbalk_button" ><span class="glyphicon glyphicon-search" style="color:white"></span></button>
+                    </span>
+                    </div>
+                    </form>
+                    
+                </div>
+             </nav>
+        </div> <!-- column  --> 
+    </div> <!-- eind row  -->
+
+    <div class="row padding_row section-full">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hidden-xs">
+            <h2 class="h_margin">Registeren</h2>
+            <form>
+                <label class="radio-inline"><input type="radio" name="optradio">Student</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Docent</label> 
+            </form>
+            
+            <div class="row_margin">
+            <form>
+                <label class="radio-inline"><input type="radio" name="optradio">Vrouw</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Man</label>
+            </form>
+            </div>    
+            
+            <div class="row row_margin">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="Voornaam">
+                </div>
+            
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="Achternaam">
+                </div> 
+            </div>   
+            
+            <input type="text" class="form-control form_titel_bericht" placeholder="Gebruikersnaam">
+        
+            <input type="password" class="form-control form_titel_bericht" placeholder="Wachtwoord">
+            
+            <input type="password" class="form-control form_titel_bericht" placeholder="Herhaal wachtwoord">
+            
+            <div class="row row_margin">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="01">
+                </div>
+                
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="Januari">
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="1997">
+                </div>
+            </div>
+            
+            <input type="text" class="form-control form_titel_bericht" placeholder="E-mailadres">
+            
+            <label class="checkbox-inline"><input type="checkbox" value="">Ik accepteer de <a>algemene voorwaarden</a></label>
+            
+            <div class="span12 row_margin">
+            <button onclick="window.location.href='startpagina_ingelogd.html'" type="button" class="btn btn-primary button_style a_green">Registreren</button>
+            </div> 
+        </div>    
+            
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hidden-lg hidden-md hidden-sm">
+            <h2 class="h_margin_bottom">Inloggen</h2>
+           
+            <input type="text" class="form-control form_titel_bericht" placeholder="E-mailadres/Gebruikersnaam">
+            
+            <input type="password" class="form-control form_titel_bericht" placeholder="Wachtwoord">
+            
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs=9 row_margin">
+                    <label class="checkbox-inline"><input type="checkbox" value="">Wachtwoord onthouden</label>
+                </div>    
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs=3 row_margin">
+                    <button onclick="window.location.href='startpagina_ingelogd.html'" type="button" class="btn btn-primary button_style a_green">Log in</button>
+                </div>
+            </div>    
+                    
+            <div class="row row_margin2">
+                <a href="wachtwoord_vergeten.html">Wachtwoord vergeten</a>
+            </div>  
+        </div>
+        
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 hidden-xs">
+        </div>    
+        
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hidden-xs">
+            <h2 class="h_margin_bottom">Inloggen</h2>
+           
+            <input type="text" class="form-control form_titel_bericht" placeholder="E-mailadres/Gebruikersnaam">
+            
+            <input type="password" class="form-control form_titel_bericht" placeholder="Wachtwoord">
+            
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs=9 row_margin">
+                    <label class="checkbox-inline"><input type="checkbox" value="">Wachtwoord onthouden</label>
+                </div>    
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs=3 row_margin">
+                    <button onclick="window.location.href='startpagina_ingelogd.html'" type="button" class="btn btn-primary button_style a_green">Log in</button>
+                </div>
+            </div>    
+                    
+            <div class="row row_margin2">
+                <a href="wachtwoord_vergeten.html">Wachtwoord vergeten</a>
+            </div>  
+        </div>
+        
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hidden-lg hidden-md hidden-sm">
+            <h2 class="h_top">Registeren</h2>
+            <form>
+                <label class="radio-inline"><input type="radio" name="optradio">Student</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Docent</label> 
+            </form>
+            
+            <div class="row_margin">
+            <form>
+                <label class="radio-inline"><input type="radio" name="optradio">Vrouw</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Man</label>
+            </form>
+            </div>    
+            
+            <div class="row row_margin">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="Voornaam">
+                </div>
+            
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="Achternaam">
+                </div> 
+            </div>   
+            
+            <input type="text" class="form-control form_titel_bericht" placeholder="Gebruikersnaam">
+        
+            <input type="password" class="form-control form_titel_bericht" placeholder="Wachtwoord">
+            
+            <input type="password" class="form-control form_titel_bericht" placeholder="Herhaal wachtwoord">
+            
+            <div class="row row_margin">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="01">
+                </div>
+                
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="Januari">
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <input type="text" class="form-control form_titel_bericht" placeholder="1997">
+                </div>
+            </div>
+            
+            <input type="text" class="form-control form_titel_bericht" placeholder="E-mailadres">
+            
+            <label class="checkbox-inline"><input type="checkbox" value="">Ik accepteer de <a>algemene voorwaarden</a></label>
+            
+            <div class="span12 row_margin">
+            <button onclick="window.location.href='startpagina_ingelogd.html'" type="button" class="btn btn-primary button_style a_green">Registreren</button>
+            </div>  
+                
+        </div>
+            
+    </div> <!-- eind row  -->
+    
+    <div class="footer">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <a href="#" class="a_margin_footer"><span class="a_white">Contact</span></a>
+                <a href="#" class="a_margin_footer"><span class="a_white">FAQ</span></a>
+                <a href="#" class="a_margin_footer"><span class="a_white">Privacy</span></a>
+                <a href="https://www.ma-web.nl" class="a_margin_footer hidden-xs"><span class="a_white">Schoolproject</span> <img src="links/ma_logo.jpg" alt="" height="15"></a>
+            </div>
+        </div>
+    </div> 
+    
+</div> <!-- eind container  --> 
+    
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

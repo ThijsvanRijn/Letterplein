@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Learning Community, Letterplein, Beelschermtypografie " />
+    <meta name="description" content="Een learning community waarbij leerlingen en studenten met elkaar over beeldschermtypografie praten." />
+    <meta name="author" content="Thijs van Rijn" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,900" rel="stylesheet">
+    <title> Account | Letterplein </title>
+</head>
+
+<body>
+    <div class="container-fluid background-color">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="inloggen_uitloggen_balk"> <span class="a_grey2 a_grey_padding">Bert Kampen</span> <a href="startpagina_niet_ingelogd.html"><span class="a_black">Uitloggen</span></a> </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <nav class="navbar navbar-default navbar-static-top padding_menu margin_width">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                            <a class="navbar-brand" href="startpagina_ingelogd.html"><img class="padding_logo" src="images/logo.png" alt="logo" height="30"> </a>
+                            <a class="navbar-brand" href="meldingen.html"><img class="padding_logo" src="images/notificatie_knop.png" alt="logo" height="30"></a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar_no_border" id="bs-example-navbar-collapse-1">
+                            <form class="nav navbar-form navbar-right navbar_no_border" role="search" onsubmit="reDirect()">
+                                <div class="input-group">
+                                    <input type="text" class="form-control zoekbalk_lettertype color_zoekbalk_form" placeholder="Zoeken"> <span class="input-group-btn">
+                                    <button onclick="window.location.href='searchresults.html'" type="button" class="btn color_zoekbalk_button" ><span class="glyphicon glyphicon-search" style="color:white"></span></button>
+                                    </span>
+                                </div>
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="groep.html"><span class="a_white">Groepen</span></a></li>
+                                <li><a href="leden.html"><span class="a_white">Leden</span></a></li>
+                                <li><a href="account.html"><span class="a_white">Account</span></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- begin -->
+            <div class="filler">
+                <div class="col-md-2 sidebar">
+                    <div class="row">
+                        <!-- Menu -->
+                        <div class="side-menu top17">
+                            <nav class="navbar">
+                                <!-- Main Menu -->
+                                <div class="side-menu-container margin_width">
+                                    <ul class="nav navbar-nav admin-menu">
+                                        <li class="active"><a href="#" data-target-id="overzicht"><span class="glyphicon glyphicon-user"></span> Accountinstellingen </a></li>
+                                        <li><a href="#" data-target-id="privacy"><span class="glyphicon glyphicon-lock"></span> Privacy </a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 content top17 well admin-content" id="overzicht">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"> Overzicht </div>
+                        <div class="panel-body">
+                            <h3>Accountgegevens</h3> </div>
+                        <div class="panel-body1">
+                            <p> Profielfoto:</p> <span class="btn btn-default btn-file">Upload <input type="file"> </span> </div>
+                        <div class="panel-body2">
+                            <p> Naam:</p>
+                            <p>
+                                <button type="button" class="btn btn-default btn-round ">Wijzigen</button>
+                            </p>
+                        </div>
+                        <div class="panel-body3">
+                            <p> Contact:</p>
+                            <p>
+                                <button type="button" class="btn btn-default btn-round ">Wijzigen</button>
+                            </p>
+                        </div>
+                        <div class="panel-body4">
+                            <p> Wachtwoord:</p>
+                            <p>
+                                <button type="button" class="btn btn-default btn-round ">Wijzigen</button>
+                            </p>
+                        </div>
+                        <div class="panel-body5">
+                            <p> Account verwijderen:</p>
+                            <p>
+                                <button type="button" class="btn btn-default btn-round ">Verwijderen</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 content top17 well admin-content" id="privacy">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"> Privacy </div>
+                        <div class="panel-body">
+                            <h3>Privacy instellingen</h3> </div>
+                        <div class="panel-body1">
+                            <p>Je kan hier je account op prive zetten.</p>
+                        </div>
+                        <div>
+                            <label class="switch">
+                                <input type="checkbox"> <span class="slider round"></span> </label>
+                        </div>
+                        <div class="panel-body6">
+                            <p>*Door hem aan te zetten kan je niet gevonden worden door andere leden.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="#" class="a_margin_footer">Contact</a> <a href="#" class="a_margin_footer">FAQ</a> <a href="#" class="a_margin_footer">Privacy</a> <a href="https://www.ma-web.nl" class="a_margin_footer hidden-xs">Schoolproject <img src="links/ma_logo.jpg" alt="" height="15"></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
